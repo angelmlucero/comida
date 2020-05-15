@@ -15,7 +15,7 @@ font-size: 2em;
 background-color: rgba(255, 255, 255, 0.7);
 text-align: center;
   display: flex;
-  
+  flex-wrap: wrap;
 }
 
 button{
@@ -23,8 +23,6 @@ font-family: Simplicity;
 font-size: inherit;
 width: 17%;
 margin: auto;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 #graf{
@@ -53,8 +51,15 @@ background-color: tomato;
 
 footer{
   font-size: 1em;}
-@media screen and (max-width: 800px){
-  body{font-size:1em;}
-  button{width: 100%;}
+
+@media only screen
+  and (min-width: 320px) 
+  and (max-width: 736px)
+{
+  body{font-size:1em;
+  }
+  
+  button{width: 100%;
+  }
 }
   
