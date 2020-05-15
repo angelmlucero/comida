@@ -1,0 +1,48 @@
+@font-face {
+font-family: Simplicity;
+src: url("simplicity.ttf");
+}
+
+body{
+background-image: url("comida.jpg");
+background-size: cover;
+font-family: Simplicity; }
+
+#main{
+margin: 5% 10%;
+padding: 2em;
+font-size: 2em;
+background-color: rgba(255, 255, 255, 0.7);
+text-align: center;
+}
+
+button{
+font-family: Simplicity;
+font-size: inherit;
+width: 17%;
+margin: auto;
+}
+
+#graf{
+cursor: pointer;
+text-align: center;}
+
+#imagen{
+display: none;
+margin: auto;}
+
+#carbo{
+background-color: blanchedalmond;
+}
+#verdu{
+background-color: palegreen;
+}
+#guarni{
+background-color: salmon;
+}
+#coccion{
+background-color: slategray;
+}
+#planB{
+background-color: tomato;
+}
